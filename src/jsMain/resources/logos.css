@@ -1,0 +1,65 @@
+.studiomatna-logo {
+    display: inline-block;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: top;
+    text-indent: -9000px
+    font-family: 'Poppins', sans-serif;
+}
+
+.studiomatna-logo-100 {
+    width: 100%;
+}
+
+.studiomatna-logo-1001 {
+    width: 80%;
+}
+
+.studiomatna-logo-80 {
+    width: 80%;
+}
+
+.studiomatna-logo._logo-studiomatna._size-1 {
+    height: 40px
+}
+
+.studiomatna-logo._logo-studiomatna._size-2 {
+    height: 60px
+}
+
+.studiomatna-logo._logo-studiomatna._size-3 {
+    height: 75px
+}
+
+.studiomatna-logo._logo-studiomatna._size-4 {
+    height: 100px
+}
+
+.studiomatna-logo._logo-studiomatna._size-5 {
+    height: 150px
+}
+
+.studiomatna-logo._logo-studiomatna-square._size-1 {
+    width: 40px;
+    height: 40px
+}
+
+.studiomatna-logo._logo-studiomatna-square._size-2 {
+    width: 60px;
+    height: 60px
+}
+
+.studiomatna-logo._logo-studiomatna-square._size-3 {
+    height: 75px
+}
+
+.studiomatna-logo._logo-studiomatna-square._size-4 {
+    width: 100px;
+    height: 100px
+}
+
+.studiomatna-logo._logo-studiomatna-square._size-5 {
+    width: 150px;
+    height: 150px
+}
