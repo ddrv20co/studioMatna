@@ -2,7 +2,6 @@ package com.studiomatna.content
 
 import androidx.compose.runtime.Composable
 import com.studiomatna.models.Testimonial
-import kotlinx.browser.document
 import org.jetbrains.compose.web.attributes.*
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.dom.*
@@ -19,15 +18,15 @@ fun Testimonials() {
             B{ Text("Usuarios compartiendo ")}
             Text(" su experiencia") }
         Div(attrs = {
-            classes("row", "mx-auto", "my-auto", "justify-content-center", "pt-5")
+            classes("row", "mx-auto", "my-auto", "justify-content-center", "pt-5", "carousel-container")
         }) {
             Div(attrs = {
                 id("testimonialCarousel")
-                classes("carousel", "slide", "tp-5")
+                classes("slide", "tp-5")
                 attr("data-bs-ride", value = "carousel")
             }) {
                 Div(attrs = {
-                    classes("carousel-inner", "w-100", "tp-5")
+                    classes( "w-100", "tp-5")
                     attr("role", value = "listbox")
                 }) {
                     for (position in 0..0) {

@@ -51,6 +51,11 @@ margin-top: 0;
     padding-bottom: 4rem;
 }
 
+.carousel-container {
+    padding-left: 350px;
+
+}
+
 .card {
     background-color: #ffeede;
     border-radius: 15px !important;
